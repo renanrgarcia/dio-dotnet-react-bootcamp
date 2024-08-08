@@ -1,0 +1,15 @@
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/bin/Debug/net8.0/1.example-project
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/bin/Debug/net8.0/1.example-project.deps.json
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/bin/Debug/net8.0/1.example-project.runtimeconfig.json
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/bin/Debug/net8.0/1.example-project.dll
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/bin/Debug/net8.0/1.example-project.pdb
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.GeneratedMSBuildEditorConfig.editorconfig
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.AssemblyInfoInputs.cache
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.AssemblyInfo.cs
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.csproj.CoreCompileInputs.cache
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.sourcelink.json
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.dll
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/refint/1.example-project.dll
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.pdb
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/1.example-project.genruntimeconfig.cache
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/1.example-project/obj/Debug/net8.0/ref/1.example-project.dll
