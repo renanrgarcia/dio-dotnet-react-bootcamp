@@ -1,0 +1,15 @@
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.GeneratedMSBuildEditorConfig.editorconfig
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.AssemblyInfoInputs.cache
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.AssemblyInfo.cs
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.csproj.CoreCompileInputs.cache
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.sourcelink.json
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/bin/Debug/net8.0/1.dotnet-introduction
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/bin/Debug/net8.0/1.dotnet-introduction.deps.json
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/bin/Debug/net8.0/1.dotnet-introduction.runtimeconfig.json
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/bin/Debug/net8.0/1.dotnet-introduction.dll
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/bin/Debug/net8.0/1.dotnet-introduction.pdb
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.dll
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/refint/1.dotnet-introduction.dll
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.pdb
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/1.dotnet-introduction.genruntimeconfig.cache
+/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/1.dotnet-introduction/obj/Debug/net8.0/ref/1.dotnet-introduction.dll
