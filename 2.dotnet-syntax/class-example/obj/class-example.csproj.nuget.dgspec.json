@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/class-example/class-example.csproj": {}
+    "C:\\Projects\\dio-dotnet-react-bootcamp\\2.dotnet-syntax\\class-example\\class-example.csproj": {}
   },
   "projects": {
-    "/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/class-example/class-example.csproj": {
+    "C:\\Projects\\dio-dotnet-react-bootcamp\\2.dotnet-syntax\\class-example\\class-example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/class-example/class-example.csproj",
+        "projectUniqueName": "C:\\Projects\\dio-dotnet-react-bootcamp\\2.dotnet-syntax\\class-example\\class-example.csproj",
         "projectName": "class-example",
-        "projectPath": "/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/class-example/class-example.csproj",
-        "packagesPath": "/home/renanrgarcia/.nuget/packages/",
-        "outputPath": "/home/renanrgarcia/projects/dio-dotnet-react-bootcamp/2.dotnet-syntax/class-example/obj/",
+        "projectPath": "C:\\Projects\\dio-dotnet-react-bootcamp\\2.dotnet-syntax\\class-example\\class-example.csproj",
+        "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\dio-dotnet-react-bootcamp\\2.dotnet-syntax\\class-example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/renanrgarcia/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\renan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

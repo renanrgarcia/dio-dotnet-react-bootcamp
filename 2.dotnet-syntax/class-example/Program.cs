@@ -17,6 +17,11 @@
 // person1.Age = 28;
 // person1.SayHello();
 
-DateTime date = DateTime.Now.AddDays(5); // Current date and time
-System.Console.WriteLine(date.ToString("dd/MM/yyyy"));
-System.Console.WriteLine(date.ToString("dd/MM/yyyy hh:mm:ss tt"));
+// DateTime date = DateTime.Now.AddDays(5); // Current date and time
+// System.Console.WriteLine(date.ToString("dd/MM/yyyy"));
+// System.Console.WriteLine(date.ToString("dd/MM/yyyy hh:mm:ss tt"));
+
+Calculator calc = new Calculator();
+
+calc.Add(10, 20);
+calc.Subtract(30, 7);
