@@ -1,4 +1,4 @@
-﻿using class_example.Models;
+﻿using FundamentsExample.Common.Models;
 
 // string name = "Renan";
 // int age = 32;
