@@ -1,12 +1,7 @@
 ﻿using exploringCSharp.Models;
 
-Person p1 = new Person();
-p1.Name = "Renan";
-p1.LastName = "Garcia";
-
-Person p2 = new Person();
-p2.Name = "Thaís";
-p2.LastName = "Andrade";
+Person p1 = new Person(name: "Thais", lastName: "Andrade");
+Person p2 = new Person(name: "Renan", lastName: "Garcia");
 
 Course englishCourse = new Course();
 englishCourse.Name = "English";

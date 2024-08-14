@@ -7,6 +7,12 @@ namespace exploringCSharp.Models
 {
     public class Person
     {
+        public Person() { }
+        public Person(string name, string lastName)
+        {
+            Name = name;
+            LastName = lastName;
+        }
         private string _name;
         private int _age;
         public string Name
