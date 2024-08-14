@@ -42,8 +42,9 @@ namespace exploringCSharp.Models
                 _age = value;
             }
         }
+        public string Email { get; set; }
 
-        public void Introduce()
+        public virtual void Introduce()
         {
             Console.WriteLine($"Hello, my name is {FullName} and I am {Age} years old.");
         }
