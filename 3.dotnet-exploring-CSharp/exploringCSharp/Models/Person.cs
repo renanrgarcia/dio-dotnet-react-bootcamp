@@ -37,7 +37,7 @@ namespace exploringCSharp.Models
             }
         }
 
-        public void SayHello()
+        public void Introduce()
         {
             Console.WriteLine($"Hello, my name is {FullName} and I am {Age} years old.");
         }
