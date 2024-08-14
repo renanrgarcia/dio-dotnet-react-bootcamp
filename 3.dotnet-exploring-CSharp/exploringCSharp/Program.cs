@@ -1,4 +1,5 @@
 ﻿using exploringCSharp.Models;
+using System.Globalization;
 
 Person p1 = new Person(name: "Thais", lastName: "Andrade");
 Person p2 = new Person(name: "Renan", lastName: "Garcia");
@@ -11,3 +12,11 @@ englishCourse.AddStudent(p1);
 englishCourse.AddStudent(p2);
 englishCourse.ObtainNumberOfStudentsEnrolled();
 englishCourse.ListStudents();
+
+// Money test
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+decimal money = 1000.58m;
+
+Console.WriteLine($"{money:C}");
+Console.WriteLine(money.ToString("C2"));
+Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));

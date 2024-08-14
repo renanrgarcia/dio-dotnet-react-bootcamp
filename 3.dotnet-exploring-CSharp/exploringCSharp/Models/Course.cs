@@ -28,11 +28,12 @@ namespace exploringCSharp.Models
         public void ListStudents()
         {
             Console.WriteLine($"The students in the {Name} course:");
-            int counter = 1;
-            foreach (Person student in Students)
+
+            for (int counter = 0; counter < Students.Count; counter++)
             {
-                Console.WriteLine($"{counter}. {student.FullName}");
-                counter++;
+                string text = $"Nº {counter + 1} - {Students[counter].FullName}";
+                // string text = "Nº " + (counter + 1) + " - " + Students[counter].FullName;
+                Console.WriteLine(text);
             }
         }
     }
