@@ -28,9 +28,30 @@ using System.Globalization;
 // student.Email = "T@t.com";
 // student.Grade = 10.0;
 
-string[] lines = File.ReadAllLines("Files/readFile.txt");
+// try
+// {
+//   // string[] lines = File.ReadAllLines("Files/d/read-File.txt");
+//   string[] lines = File.ReadAllLines("Files/readFile.txt");
 
-foreach (string line in lines)
-{
-  Console.WriteLine(line);
-}
+//   foreach (string line in lines)
+//   {
+//     Console.WriteLine(line);
+//   }
+// }
+// catch (FileNotFoundException ex)
+// {
+//   Console.WriteLine(ex.Message);
+// }
+// catch (DirectoryNotFoundException ex)
+// {
+//   Console.WriteLine(ex.Message);
+// }
+// catch (Exception ex)
+// {
+//   Console.WriteLine(ex.Message);
+// }
+// finally
+// {
+//   Console.WriteLine("Finally");
+// }
+
