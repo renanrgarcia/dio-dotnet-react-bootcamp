@@ -1,0 +1,3 @@
+Line 1 from readFile.txt
+Line 2 from readFile.txt
+Line 3 from readFile.txt

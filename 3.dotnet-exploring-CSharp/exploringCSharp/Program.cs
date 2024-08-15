@@ -21,9 +21,16 @@ using System.Globalization;
 // Console.WriteLine(money.ToString("C2"));
 // Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
 
-Student student = new Student();
-student.Name = "Thais";
-student.LastName = "Andrade";
-student.Introduce();
-student.Email = "T@t.com";
-student.Grade = 10.0;
+// Student student = new Student();
+// student.Name = "Thais";
+// student.LastName = "Andrade";
+// student.Introduce();
+// student.Email = "T@t.com";
+// student.Grade = 10.0;
+
+string[] lines = File.ReadAllLines("Files/readFile.txt");
+
+foreach (string line in lines)
+{
+  Console.WriteLine(line);
+}
