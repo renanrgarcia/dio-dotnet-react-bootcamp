@@ -55,3 +55,4 @@ using System.Globalization;
 //   Console.WriteLine("Finally");
 // }
 
+// new ExceptionExample().Method1();
