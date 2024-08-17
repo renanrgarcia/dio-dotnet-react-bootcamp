@@ -1,19 +1,19 @@
 [
   {
     "Id": 1,
-    "Product": "Notebook",
+    "Product_Name": "Notebook",
     "Price": 2500.00,
     "SaleDate": "2024-08-17T08:33:21.4390721-03:00"
   },
   {
     "Id": 2,
-    "Product": "Tablet",
+    "Product_Name": "Tablet",
     "Price": 1500.00,
     "SaleDate": "2024-08-17T08:33:21.4477759-03:00"
   },
   {
     "Id": 3,
-    "Product": "Smartphone",
+    "Product_Name": "Smartphone",
     "Price": 800.00,
     "SaleDate": "2024-08-17T08:33:21.4477788-03:00"
   }
