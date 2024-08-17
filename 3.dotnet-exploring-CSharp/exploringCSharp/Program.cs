@@ -56,3 +56,8 @@ using System.Globalization;
 // }
 
 // new ExceptionExample().Method1();
+
+Person person = new Person("Thais", "Andrade");
+(string name, string lastName) = person;
+
+Console.WriteLine($"{name} {lastName}");

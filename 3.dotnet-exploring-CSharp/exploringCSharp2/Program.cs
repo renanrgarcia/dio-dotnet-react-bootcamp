@@ -4,7 +4,7 @@
 
 FileRead fileRead = new FileRead();
 
-var (success, fileLines, lineCount) = fileRead.ReadFile("Files/fileToRead.txt");
+var (success, fileLines, _) = fileRead.ReadFile("Files/fileToRead.txt");
 
 if (success)
 {
@@ -12,7 +12,7 @@ if (success)
   {
     Console.WriteLine(line);
   }
-  Console.WriteLine($"There are {lineCount} lines in the file");
+  // Console.WriteLine($"There are {lineCount} lines in the file");
 }
 else
 {

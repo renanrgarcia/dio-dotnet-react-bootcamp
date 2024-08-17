@@ -13,6 +13,12 @@ namespace exploringCSharp.Models
             Name = name;
             LastName = lastName;
         }
+        public void Deconstruct(out string name, out string lastName)
+        {
+            name = Name;
+            lastName = LastName;
+        }
+
         private string _name;
         private int _age;
         public string Name
