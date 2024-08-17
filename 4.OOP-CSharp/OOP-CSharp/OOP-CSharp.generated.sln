@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataListsChallenge", "DataListsChallenge.csproj", "{99F1668B-DB52-404E-BB4A-650DF38F4FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP-CSharp", "OOP-CSharp.csproj", "{D539CAA2-2DA9-45D5-B515-361597CCCD27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99F1668B-DB52-404E-BB4A-650DF38F4FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99F1668B-DB52-404E-BB4A-650DF38F4FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99F1668B-DB52-404E-BB4A-650DF38F4FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99F1668B-DB52-404E-BB4A-650DF38F4FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D539CAA2-2DA9-45D5-B515-361597CCCD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D539CAA2-2DA9-45D5-B515-361597CCCD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D539CAA2-2DA9-45D5-B515-361597CCCD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D539CAA2-2DA9-45D5-B515-361597CCCD27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7AC5A801-8EDE-48BC-8789-518C3C9A3179}
+		SolutionGuid = {F5338727-91FB-48CD-8960-D9E7EB9498ED}
 	EndGlobalSection
 EndGlobal
