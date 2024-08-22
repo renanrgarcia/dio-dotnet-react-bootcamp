@@ -1,6 +1,6 @@
 services:
   db:
-    build: .
+    image: mongo
     container_name: db
     restart: always
     environment:
