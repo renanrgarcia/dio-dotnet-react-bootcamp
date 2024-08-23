@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApiModule.Context
 {
-    public class PhonebookContext : DbContext
+    public class ContactbookContext : DbContext
     {
-        public PhonebookContext(DbContextOptions<PhonebookContext> options) : base(options)
+        public ContactbookContext(DbContextOptions<ContactbookContext> options) : base(options)
         {
 
         }
