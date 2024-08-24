@@ -36,7 +36,7 @@ namespace ApiModule.Controllers
         }
 
         [HttpGet("GetByName")]
-        public IActionResult GetAll(string name)
+        public IActionResult GetByName(string name)
         {
             var contacts = _context.Contacts.Where(x => x.Name.Contains(name));
 

@@ -59,11 +59,11 @@ namespace AssignmentsAPIChallenge.Controllers
             return NoContent();
         }
 
-        [HttpGet]
+        [HttpGet("GetAllAssignments")]
         public IActionResult GetAllAssignments()
         {
-            // var assignments = _context.
-            return Ok();
+            var assignments = _context.Assignments.ToList();
+            return Ok(assignments);
         }
 
 
@@ -100,7 +100,7 @@ namespace AssignmentsAPIChallenge.Controllers
             return Ok(assignments);
         }
 
-        [HttpPost]
+        [HttpPost("CreateAssignment")]
         public IActionResult CreateAssignment(Assignment assignment)
         {
             _context.Add(assignment);
