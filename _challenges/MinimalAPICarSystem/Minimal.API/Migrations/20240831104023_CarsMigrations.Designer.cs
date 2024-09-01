@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MinimalAPI.Infrastructure.Db;
 
@@ -10,9 +11,11 @@ using MinimalAPI.Infrastructure.Db;
 namespace MinimalAPI.Migrations
 {
     [DbContext(typeof(DbCarContext))]
-    partial class DbCarContextModelSnapshot : ModelSnapshot
+    [Migration("20240831104023_CarsMigrations")]
+    partial class CarsMigrations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,6 +57,30 @@ namespace MinimalAPI.Migrations
                             Password = "123456",
                             Profile = "Adm"
                         });
+                });
+
+            modelBuilder.Entity("MinimalAPI.Domain.Entities.Car", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Brand")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cars");
                 });
 #pragma warning restore 612, 618
         }
