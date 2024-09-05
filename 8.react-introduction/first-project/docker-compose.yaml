@@ -1,0 +1,13 @@
+version: "3" # Specifies the version of Docker Compose file format
+
+services:
+  node-app:
+    build: . # Specifies the build context (where to find the Dockerfile)
+    ports:
+      - "3000:3000" # Maps port 3000 in the container to port 3000 on the host
+    volumes: # Defines volume mappings
+      - .:/app # Maps the current directory to /app in the container
+      - /app/node_modules # Creates an anonymous volume for node_modules
+    environment: # Sets environment variables in the container
+      - NODE_ENV=development # Sets NODE_ENV to 'development'
+    command: npm run dev # Overrides the CMD instruction from the Dockerfile
