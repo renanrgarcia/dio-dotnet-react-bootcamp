@@ -1,10 +1,12 @@
+import { ButtonContainer } from "./styles.js";
+
 const Button = () => {
     return (
-      <div className="App">
-        
-      </div>
+      <ButtonContainer>
+        1
+      </ButtonContainer>
     );
   }
   
-  export default App;
+  export default Button;
   
