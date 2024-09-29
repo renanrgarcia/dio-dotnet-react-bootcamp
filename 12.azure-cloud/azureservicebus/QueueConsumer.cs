@@ -10,8 +10,7 @@ namespace azureservicebus
 
         public QueueConsumer()
         {
-            _client = new QueueClient("Endpoint=sb://dio-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=T5qt3Bn3jj7QVERxt6JHe+cqvotiqwmi6+ASbKL4dJY=",
-                "queue1", ReceiveMode.PeekLock);
+            _client = new QueueClient("Endpoint","queue1", ReceiveMode.PeekLock);
             // _client = new QueueClient("Endpoint=sb://dio-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=T5qt3Bn3jj7QVERxt6JHe+cqvotiqwmi6+ASbKL4dJY=",
             //     "queue1/$DeadLetterQueue", ReceiveMode.PeekLock);
             Console.WriteLine("Queue reading from service bus started");

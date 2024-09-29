@@ -9,8 +9,7 @@ namespace azureservicebus
 
         public QueueProducer()
         {
-            _client = new QueueClient("Endpoint=sb://dio-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=T5qt3Bn3jj7QVERxt6JHe+cqvotiqwmi6+ASbKL4dJY=",
-                "queue1");
+            _client = new QueueClient("Endpoint", "queue1");
         }
 
         public async Task ProduceMessage()

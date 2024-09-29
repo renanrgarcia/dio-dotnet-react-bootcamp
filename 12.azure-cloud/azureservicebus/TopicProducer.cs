@@ -9,8 +9,7 @@ namespace azureservicebus
 
         public TopicProducer()
         {
-            _client = new TopicClient("Endpoint=sb://dio-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=T5qt3Bn3jj7QVERxt6JHe+cqvotiqwmi6+ASbKL4dJY=",
-                "topic1");
+            _client = new TopicClient("Endpoint", "topic1");
         }
 
         public async Task ProduceMessage()

@@ -10,8 +10,7 @@ namespace azureservicebus
 
         public TopicConsumer()
         {
-            _client = new SubscriptionClient("Endpoint=sb://dio-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=T5qt3Bn3jj7QVERxt6JHe+cqvotiqwmi6+ASbKL4dJY=",
-                "topic1", "subscribe1");
+            _client = new SubscriptionClient("Endpoint", "topic1", "subscribe1");
             Console.WriteLine("Topic reading from service bus started");
         }
 
